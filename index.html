@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ストップウォッチアプリ</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+    <h1>ストップウォッチアプリ</h1>
+    </header>
+    <div class="stopwatch">
+        <div class="time" id="time_display">00:00:00.000</div>
+        <div>
+            <button id="start_button" onclick="startStopwatch()">スタート</button>
+            <button id="stop_button" onclick="stopStopwatch()" disabled="true">ストップ</button>
+            <button id="reset_button" onclick="resetStopwatch()" disabled="true">リセット</button>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
